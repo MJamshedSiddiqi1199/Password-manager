@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Assignmen4"
         tools:targetApi="31">
         <activity
+            android:name=".show_in_list_website_password"
+            android:exported="false" />
+        <activity
+            android:name=".get_password_website"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
